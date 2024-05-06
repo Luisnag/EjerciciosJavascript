@@ -261,7 +261,7 @@ function promediN(asta, inpu, Tur) {
     for (var i = 1; i <= asta; i++) {
         //alert(`${inpu}${i}`); break;
         inNom = `${inpu}${i}`;
-        if (document.getElementById(inNom).value) {
+        if (document.getElementById(inNom)) {
             // alert(document.getElementById(inNom).value); break;
             var eda = parseInt(document.getElementById(inNom).value);
 
